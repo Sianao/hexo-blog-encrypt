@@ -201,6 +201,7 @@
 }
 
 .btn {
+	margin: 2px;
 	border-radius: 25px;
     position: relative;
     min-width: 200px;
