@@ -89,10 +89,6 @@
 	border-radius:30px;
   }
   
-  /* $cyan: #0505A9;
-  $dark: #FFFFFF;
-  $borderW: 2px; */
-  
   .blob-btn {
 	z-index: 1;
 	position: relative;
@@ -110,7 +106,7 @@
 	cursor: pointer;
 	border-radius:30px;
 	
-	&:before {
+	.blob-btn::before {
 	  content: "";
 	  z-index: 1;
 	  position: absolute;
@@ -122,7 +118,7 @@
 	  border-radius:30px;
 	}
 	
-	&:after {
+	.blob-btn::after {
 	  content: "";
 	  z-index: -2;
 	  position: absolute;
@@ -135,7 +131,7 @@
 	  border-radius:30px;
 	}
 	
-	&:hover {
+	.blob-btn::hover {
 	  color: #FFFFFF;
 	  border-radius:30px;
 	  
@@ -147,7 +143,7 @@
 	  }
 	}
 	
-	&__inner {
+	.blob-btn__inner {
 	  z-index: -1;
 	  overflow: hidden;
 	  position: absolute;
@@ -159,14 +155,14 @@
 	  background:#ffffff;
 	}
 	
-	&__blobs {
+	.blob-btn__blobs {
 	  position: relative;
 	  display: block;
 	  height: 100%;
 	  filter: url('#goo');
 	}
 	
-	&__blob {
+	.blob-btn__blob {
 	  position: absolute;
 	  top: 2px;
 	  width: 100% / 4;
