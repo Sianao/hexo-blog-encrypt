@@ -23,7 +23,7 @@
   "name": "hexo-blog-encrypt",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/D0n9X1n/hexo-blog-encrypt.git"
+    "url": "git+ssh://git@github.com/sianao/hexo-blog-encrypt.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
